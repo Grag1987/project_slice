@@ -35,8 +35,8 @@ function _load(){
     //TODO: valahogy itt kéne rátenni az új elemre is a törlés függvényt.
 
   }
-  document.getElementById("addButton");
-  addEventListener("click", addNewItem);
+  
+  document.getElementById("addButton").addEventListener("click", addNewItem);
 
   //7. lepes= query selectorba mentsuk el osszes torles gombot, majd for ciklussal menjunk vegig a tombon (elemek szama) mindegyikre tegyunk ra egy clikk esemenyt amihez keszitunk egy fuggvenyt
   let deleteButtons = main_div.querySelectorAll(".delete");

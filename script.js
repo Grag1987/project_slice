@@ -27,7 +27,7 @@ function _load(){
   //5. lepes= insertadjecent htmllel (afterend) hozzaadunk egy add gombot(id) a root diven kivul
   main_div.insertAdjacentHTML("afterend", `
     <button id="addButton">Add new row</button>
-  `);//addButton=addItem
+  `);
 
   //6. lepes= document.getelemntbyid. alapjan meghivni az add-ra a click esemenyt (a fenti sor elemekkel meghatarozott valtozot letrehozza a click esemenyre)
   function addNewItem() {
